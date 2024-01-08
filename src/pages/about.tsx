@@ -47,43 +47,33 @@ export default function About() {
               <img
                 className="AboutImg"
                 src="https://media.licdn.com/dms/image/D4D03AQGg2_bJ05a_Pw/profile-displayphoto-shrink_800_800/0/1700319835482?e=1709164800&v=beta&t=1V8oCHJG04k-0IvH15GvOvvrfs82wVzgIt6QMXT1sZ0"
-                alt="Pritam's Profile Image"
+                alt="Pritam's Profile"
               />
 
               <div className="links">
                 <ul>
                   <Link href={"https://github.com/pritam707"}>
-                    <a target="_blank" aria-label="Link to Github">
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to Github">
                       <AiFillGithub size={25} /> @pritam707
                     </a>
                   </Link>
                   <Link href={"https://www.linkedin.com/in/pritamraj/"}>
-                    <a target="_blank" aria-label="Link to Linkedin">
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to Linkedin">
                       <BsLinkedin size={25} /> @pritamraj
                     </a>
                   </Link>
-                  <Link
-                    href={"https://api.whatsapp.com/send?phone=917903346941"}
-                  >
-                    <a target="_blank" aria-label="Link to WhatsApp">
+                  <Link href={"https://api.whatsapp.com/send?phone=917903346941"}>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to WhatsApp">
                       <RiWhatsappFill size={25} /> +91 7903346941
                     </a>
                   </Link>
-                  <Link href={"https://www.discordapp.com/users/primtam_raj"}>
-                    <a
-                      className="dc"
-                      target="_blank"
-                      aria-label="Link para o Discord"
-                    >
+                  <Link href={"https://www.discordapp.com/users/pritam_raj"}>
+                    <a className="dc" target="_blank" rel="noopener noreferrer" aria-label="Link to Discord">
                       <FaDiscord size={25} /> @Pritam
                     </a>
                   </Link>
                   <Link href={"mailto:pritamkumarraj222@gmail.com"}>
-                    <a
-                      className="email"
-                      target="_blank"
-                      aria-label="Link para o email"
-                    >
+                    <a className="email" target="_blank" rel="noopener noreferrer" aria-label="Link to email">
                       <GrMail size={25} /> @pritamkumarraj222@gmail.com
                     </a>
                   </Link>

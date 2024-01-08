@@ -31,7 +31,7 @@ export function About() {
               server and front-end interfaces.
             </p>
             <p>
-              Also I'm a dedicated developer with a focus on designing and
+              Also I&rsquo;m a dedicated developer with a focus on designing and
               coding user interfaces for web applications using React.js and
               Next.js. My backend expertise in Node.js includes crafting robust
               server-side solutions and optimizing performance. Explore my

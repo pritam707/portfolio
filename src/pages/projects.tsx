@@ -12,15 +12,14 @@ import * as T from "../styles/styles";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { FaSearch } from "react-icons/fa";
 import { ArrowRight } from "phosphor-react";
+import React from "react";
 
-interface ProjectsProps {
-  target: HTMLInputElement;
-}
+interface ProjectsProps {}
 
 export default function Projects() {
   const [query, setQuery] = useState("");
 
-  const handleChange = (e: ProjectsProps) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
   };
 
@@ -80,58 +79,56 @@ export default function Projects() {
               <h3 className="not-found">Project not found 🙁</h3>
             )}
 
-            {projectFilter.map((project) => {
-              return (
-                <>
-                  <div className="border" key={project.id} />
-                  <S.ProjectsItem>
-                    <div className="banner">
+            {projectFilter.map((project) => (
+              <React.Fragment key={project.id}>
+                <div className="border" />
+                <S.ProjectsItem key={project.id}>
+                  <div className="banner">
+                    <Image
+                      width={500}
+                      height={300}
+                      src={project.img}
+                      alt={project.title}
+                    />
+                  </div>
+
+                  <div>
+                    <div className="title">
                       <Image
-                        width={500}
-                        height={300}
-                        src={project.img}
+                        width={20}
+                        height={20}
+                        src={"/icon.svg"}
                         alt={project.title}
                       />
+                      <h2>{project.title}</h2>
                     </div>
+                    <div className="description">
+                      <p>{project.description}</p>
 
-                    <div>
-                      <div className="title">
-                        <Image
-                          width={20}
-                          height={20}
-                          src={"/icon.svg"}
-                          alt={project.title}
-                        />
-                        <h2>{project.title}</h2>
+                      <div className="tags">
+                        {project.tags.map((tag) => (
+                          <span key={tag.name}>{tag.name}</span>
+                        ))}
                       </div>
-                      <div className="description">
-                        <p>{project.description}</p>
-
-                        <div className="tags">
-                          {project.tags.map((tag) => {
-                            return <span key={tag.name}>{tag.name}</span>;
-                          })}
-                        </div>
-                      </div>
-                      <Link href={`/project/${project.url}`}>
-                        <a>
-                          <T.ButtonAlternatives>
-                            See project
-                            <ArrowRight
-                              style={{
-                                marginBottom: "-0.1rem",
-                              }}
-                              weight="bold"
-                              size={16}
-                            />
-                          </T.ButtonAlternatives>
-                        </a>
-                      </Link>
                     </div>
-                  </S.ProjectsItem>
-                </>
-              );
-            })}
+                    <Link href={`/project/${project.url}`}>
+                      <a>
+                        <T.ButtonAlternatives>
+                          See project
+                          <ArrowRight
+                            style={{
+                              marginBottom: "-0.1rem",
+                            }}
+                            weight="bold"
+                            size={16}
+                          />
+                        </T.ButtonAlternatives>
+                      </a>
+                    </Link>
+                  </div>
+                </S.ProjectsItem>
+              </React.Fragment>
+            ))}
 
             <p className="github">
               Hey, hey, hey... I've got even more in store{" "}
