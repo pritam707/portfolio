@@ -53,27 +53,51 @@ export default function About() {
               <div className="links">
                 <ul>
                   <Link href={"https://github.com/pritam707"}>
-                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to Github">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link to Github"
+                    >
                       <AiFillGithub size={25} /> @pritam707
                     </a>
                   </Link>
                   <Link href={"https://www.linkedin.com/in/pritamraj/"}>
-                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to Linkedin">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link to Linkedin"
+                    >
                       <BsLinkedin size={25} /> @pritamraj
                     </a>
                   </Link>
-                  <Link href={"https://api.whatsapp.com/send?phone=917903346941"}>
-                    <a target="_blank" rel="noopener noreferrer" aria-label="Link to WhatsApp">
+                  <Link
+                    href={"https://api.whatsapp.com/send?phone=917903346941"}
+                  >
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link to WhatsApp"
+                    >
                       <RiWhatsappFill size={25} /> +91 7903346941
                     </a>
                   </Link>
                   <Link href={"https://www.discordapp.com/users/pritam_raj"}>
-                    <a className="dc" target="_blank" rel="noopener noreferrer" aria-label="Link to Discord">
+                    <a
+                      className="dc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link to Discord"
+                    >
                       <FaDiscord size={25} /> @Pritam
                     </a>
                   </Link>
                   <Link href={"mailto:pritamkumarraj222@gmail.com"}>
-                    <a className="email" target="_blank" rel="noopener noreferrer" aria-label="Link to email">
+                    <a
+                      className="email"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link to email"
+                    >
                       <GrMail size={25} /> @pritamkumarraj222@gmail.com
                     </a>
                   </Link>
@@ -82,7 +106,7 @@ export default function About() {
 
               <S.AboutContact>
                 <h3>
-                  Let's talk, maybe create an incredible project together?
+                  Let&lsquo;s talk, maybe create an incredible project together?
                 </h3>
                 <p>Send me a message! 😉</p>
                 <Link href={"/contact"}>
@@ -107,9 +131,9 @@ export default function About() {
                 responsibilities include designing and implementing RESTful
                 APIs, integrating third-party services, and ensuring seamless
                 communication between frontend and backend components. Notably,
-                I've contributed to projects like SYN, an NFT marketplace, where
-                I facilitated secure transactions and developed an intuitive
-                interface for users.
+                I&lsquo;ve contributed to projects like SYN, an NFT marketplace,
+                where I facilitated secure transactions and developed an
+                intuitive interface for users.
                 <br /> <br />
                 My skill set includes a range of technologies such as Node.js,
                 Express.js, JavaScript, TypeScript, MongoDB, SQL, AWS, S3,
@@ -120,12 +144,12 @@ export default function About() {
                 systems like Git and have experience deploying applications on
                 EC2 instances.
                 <br /> <br />
-                Currently, I'm working on the Dobrh platform, a freelancing
-                platform that I am developing from scratch. This involves
-                implementing authentication, wallet management, and review
-                systems. I have utilized my expertise in Node.js, MongoDB, Redis
-                for caching, and integrated technologies like AWS and S3 for
-                optimal performance.
+                Currently, I&lsquo;m working on the Dobrh platform, a
+                freelancing platform that I am developing from scratch. This
+                involves implementing authentication, wallet management, and
+                review systems. I have utilized my expertise in Node.js,
+                MongoDB, Redis for caching, and integrated technologies like AWS
+                and S3 for optimal performance.
                 <br /> <br />
                 I hold a B.Tech degree from PCE Jaipur (RTU, Kota) with an
                 impressive CGPA of 8. Additionally, I completed a Diploma from
@@ -144,9 +168,9 @@ export default function About() {
                 Python Certification from Great Learning.
                 <br /> <br />
                 Feel free to explore my portfolio to see firsthand examples of
-                my work and the innovative solutions I've brought to various
-                projects. Let's connect and discuss how I can contribute to your
-                next exciting project!
+                my work and the innovative solutions I&lsquo;ve brought to
+                various projects. Let&lsquo;s connect and discuss how I can
+                contribute to your next exciting project!
               </p>
             </S.AboutDescription>
           </S.AboutContent>

@@ -131,7 +131,7 @@ export default function Projects() {
             ))}
 
             <p className="github">
-              Hey, hey, hey... I've got even more in store{" "}
+              Hey, hey, hey... I&lsquo;ve got even more in store{" "}
               <a
                 href="https://github.com/pritam707"
                 target="_blank"
