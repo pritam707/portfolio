@@ -1,11 +1,11 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { AllContainer, AllContent, Cubo } from './styles'
-import { ButtonAlt } from '../../../styles/styles'
-import { AiOutlineAppstore } from 'react-icons/ai'
+import Link from "next/link";
+import Image from "next/image";
+import { AllContainer, AllContent, Cubo } from "./styles";
+import { ButtonAlt } from "../../../styles/styles";
+import { AiOutlineAppstore } from "react-icons/ai";
 
 interface AllContent {
-  title: string
+  title: string;
 }
 
 export function AllProjects({ title }: AllContent) {
@@ -14,9 +14,9 @@ export function AllProjects({ title }: AllContent) {
       <AllContainer>
         <h4>{title}</h4>
         <AllContent>
-          <Link href={'/projects'}>
+          <Link href={"/projects"}>
             <ButtonAlt>
-              Projetos <AiOutlineAppstore size={20} />
+              Project <AiOutlineAppstore size={20} />
             </ButtonAlt>
           </Link>
 
@@ -27,16 +27,16 @@ export function AllProjects({ title }: AllContent) {
                   <Image
                     width={72}
                     height={72}
-                    src="/skills/html.svg"
-                    alt="Html"
+                    src="/skills/nodejs.svg"
+                    alt="Node"
                   />
                 </div>
                 <div className="face2">
                   <Image
                     width={72}
                     height={72}
-                    src="/skills/css.svg"
-                    alt="Css"
+                    src="/skills/react.svg"
+                    alt="react"
                   />
                 </div>
                 <div className="face3">
@@ -51,8 +51,8 @@ export function AllProjects({ title }: AllContent) {
                   <Image
                     width={72}
                     height={72}
-                    src="/skills/react.svg"
-                    alt="React JS"
+                    src="/skills/mongodb.svg"
+                    alt="MongoDB"
                   />
                 </div>
                 <div className="face5">
@@ -67,8 +67,8 @@ export function AllProjects({ title }: AllContent) {
                   <Image
                     width={72}
                     height={72}
-                    src="/skills/next-js.svg"
-                    alt="Next JS"
+                    src="/skills/aws.svg"
+                    alt="AWS"
                   />
                 </div>
               </div>
@@ -77,5 +77,5 @@ export function AllProjects({ title }: AllContent) {
         </AllContent>
       </AllContainer>
     </>
-  )
+  );
 }

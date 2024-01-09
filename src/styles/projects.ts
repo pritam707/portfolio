@@ -1,9 +1,9 @@
-import styled from 'styled-components'
-import { rgba } from 'polished'
+import styled from "styled-components";
+import { rgba } from "polished";
 
 export const ProjectsContainer = styled.section`
   position: relative;
-`
+`;
 
 export const ProjectsContent = styled.section`
   display: flex;
@@ -19,7 +19,7 @@ export const ProjectsContent = styled.section`
     max-width: 650px;
 
     p {
-      color: ${props => props.theme.gray_easy};
+      color: ${(props) => props.theme.gray_easy};
       margin-bottom: 1rem;
     }
 
@@ -30,20 +30,20 @@ export const ProjectsContent = styled.section`
       align-items: center;
       padding: 1rem;
       border-radius: 10px;
-      background: ${props => props.theme.backgroundSecond};
-      border: solid 2px ${props => props.theme.gray_easy};
-      color: ${props => props.theme.gray_easy};
+      background: ${(props) => props.theme.backgroundSecond};
+      border: solid 2px ${(props) => props.theme.gray_easy};
+      color: ${(props) => props.theme.gray_easy};
 
       input {
         width: 100%;
         font-size: 1rem;
-        color: ${props => props.theme.gray};
+        color: ${(props) => props.theme.gray};
         background: none;
         outline: none;
         border: none;
 
         ::placeholder {
-          color: ${props => props.theme.gray_easy};
+          color: ${(props) => props.theme.gray_easy};
         }
       }
     }
@@ -57,25 +57,25 @@ export const ProjectsContent = styled.section`
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    border-top: 1px solid ${props => props.theme.gray_easy};
+    border-top: 1px solid ${(props) => props.theme.gray_easy};
   }
 
-  .github{
+  .github {
     text-align: center;
     margin-top: 5rem;
-    color: ${props => props.theme.gray};
+    color: ${(props) => props.theme.gray};
 
     a {
-      color: ${props => props.theme.firstColor};
-      border-bottom: 1px solid ${props => props.theme.firstColor};
+      color: ${(props) => props.theme.firstColor};
+      border-bottom: 1px solid ${(props) => props.theme.firstColor};
 
       &:hover {
-        color: ${props => props.theme.hover};
-        border-bottom: 1px solid ${props => props.theme.hover};
+        color: ${(props) => props.theme.hover};
+        border-bottom: 1px solid ${(props) => props.theme.hover};
       }
     }
   }
-`
+`;
 
 export const ProjectsItem = styled.div`
   display: flex;
@@ -104,8 +104,9 @@ export const ProjectsItem = styled.div`
     h2 {
       font-size: 1.5rem;
       font-weight: 700;
-      color: ${props => props.theme.white};
+      color: ${(props) => props.theme.white};
     }
+    
   }
 
   .description {
@@ -113,9 +114,10 @@ export const ProjectsItem = styled.div`
 
     p {
       margin: 1.5rem 0;
-      color: ${props => props.theme.gray_easy};
+      color: ${(props) => props.theme.gray_easy};
 
-      overflow: hidden;
+      // overflow: hidden;
+      hight: 0
       display: -webkit-box;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 4;
@@ -129,13 +131,19 @@ export const ProjectsItem = styled.div`
       margin-bottom: 2.5rem;
 
       span {
-        background: ${props => rgba(props.theme.color, 0.8)};
+        background: ${(props) => rgba(props.theme.color, 0.8)};
         padding: 0.25rem 0.75rem;
-        color: ${props => props.theme.text};
+        color: ${(props) => props.theme.text};
         border-radius: 0.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
-      }
+      } 
     }
   }
-`
+
+  .project-links {
+    display: flex;
+    gap: 30px; /* Adjust the gap between links as needed */
+  }
+  
+`;

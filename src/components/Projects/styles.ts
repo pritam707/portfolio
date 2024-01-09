@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ export const ProjectsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-`
+`;
 
 export const ProjectsContent = styled.div`
   display: flex;
@@ -30,10 +30,10 @@ export const ProjectsContent = styled.div`
   align-items: center;
   transition: transform 0.3s;
   overflow: hidden;
-  border: 2px solid ${props => props.theme.border};
+  border: 2px solid ${(props) => props.theme.border};
 
-  &:hover{
-    border-color: ${props => props.theme.firstColor};
+  &:hover {
+    border-color: ${(props) => props.theme.firstColor};
     border-radius: 11px;
   }
 
@@ -74,14 +74,14 @@ export const ProjectsContent = styled.div`
       font-weight: 900;
       font-size: 1.9rem;
       text-align: center;
-      color: ${props => props.theme.firstColor};
+      color: ${(props) => props.theme.firstColor};
     }
 
     span {
       font-size: 1.2rem;
       font-weight: 700;
-      color: ${props => props.theme.secondColor};
-      margin-bottom: .8rem;
+      color: ${(props) => props.theme.secondColor};
+      margin-bottom: 0.8rem;
     }
 
     .tags {
@@ -95,9 +95,9 @@ export const ProjectsContent = styled.div`
     }
   }
 
-  @media(min-width: 1300px) {
+  @media (min-width: 1300px) {
     max-width: 25rem;
   }
 
   max-width: 24rem;
-`
+`;

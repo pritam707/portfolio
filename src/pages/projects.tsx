@@ -97,7 +97,7 @@ export default function Projects() {
                       <Image
                         width={20}
                         height={20}
-                        src={"/icon.svg"}
+                        src={"/jira.svg"}
                         alt={project.title}
                       />
                       <h2>{project.title}</h2>
@@ -111,25 +111,41 @@ export default function Projects() {
                         ))}
                       </div>
                     </div>
-                    <Link href={`/project/${project.url}`}>
-                      <a>
-                        <T.ButtonAlternatives>
-                          See project
-                          <ArrowRight
-                            style={{
-                              marginBottom: "-0.1rem",
-                            }}
-                            weight="bold"
-                            size={16}
-                          />
-                        </T.ButtonAlternatives>
-                      </a>
-                    </Link>
+                    <div className="project-links">
+                      <Link href={project.web}>
+                        <a target="_blank">
+                          <T.ButtonAlternatives>
+                            See project
+                            <ArrowRight
+                              style={{
+                                marginBottom: "-0.1rem",
+                              }}
+                              weight="bold"
+                              size={16}
+                            />
+                          </T.ButtonAlternatives>
+                        </a>
+                      </Link>
+
+                      <Link href={project.github}>
+                        <a target="_blank">
+                          <T.ButtonAlternatives>
+                            Github
+                            <ArrowRight
+                              style={{
+                                marginBottom: "-0.1rem",
+                              }}
+                              weight="bold"
+                              size={16}
+                            />
+                          </T.ButtonAlternatives>
+                        </a>
+                      </Link>
+                    </div>
                   </div>
                 </S.ProjectsItem>
               </React.Fragment>
             ))}
-
             <p className="github">
               Hey, hey, hey... I&lsquo;ve got even more in store{" "}
               <a

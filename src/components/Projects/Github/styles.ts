@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const AllContainer = styled.div`
   border-radius: 15px;
-  background: ${props => props.theme.dark};
-  border: 1px solid ${props => props.theme.border};
+  background: ${(props) => props.theme.dark};
+  border: 1px solid ${(props) => props.theme.border};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,9 +19,9 @@ export const AllContainer = styled.div`
     font-weight: 900;
     font-size: 1.8rem;
     text-align: center;
-    color: ${props => props.theme.firstColor};
+    color: ${(props) => props.theme.firstColor};
   }
-`
+`;
 
 export const AllContent = styled.div`
   display: flex;
@@ -38,7 +38,7 @@ export const AllContent = styled.div`
     gap: 8rem;
     padding-left: 2rem;
   }
-`
+`;
 
 export const Cubo = styled.div`
   position: relative;
@@ -89,7 +89,7 @@ export const Cubo = styled.div`
     .face3 {
       transform: rotateY(90deg) translateZ(50px);
       img {
-        transform: rotate(-90deg);  
+        transform: rotate(-90deg);
       }
     }
 
@@ -127,4 +127,4 @@ export const Cubo = styled.div`
       transform: rotateX(90deg);
     }
   }
-`
+`;

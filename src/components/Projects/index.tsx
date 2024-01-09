@@ -35,8 +35,8 @@ export function Projects() {
       <ProjectsContainer>
         {projects.slice(0, 9).map((project) => {
           return (
-            <Link href={`/project/${project.url}`} key={project.id}>
-              <a>
+            <Link href={project.web} key={project.id}>
+              <a target="_blank">
                 <ProjectsContent>
                   <Image
                     width={400}

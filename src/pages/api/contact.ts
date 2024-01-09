@@ -46,7 +46,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   } catch (error) {
     return res.json({
       error: true,
-      message: "erro",
+      message: "error",
     });
   }
 };
