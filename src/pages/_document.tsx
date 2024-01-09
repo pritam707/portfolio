@@ -14,7 +14,7 @@ const meta = {
   description:
     "Full stack developer from India. Specialized in creating backend api, interfaces and functionalities for web applications using node.js, next.js, React.js and Next.js.",
   image:
-    "https://drive.google.com/file/d/1Z4Lczogtfgvo9zwep06QStW0lxUoZr7I/view?usp=sharing",
+    "https://github.com/pritam707/portfolio/blob/main/public/website-page.png?raw=true",
 };
 
 export default class MyDocument extends Document {
