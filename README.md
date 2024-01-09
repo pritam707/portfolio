@@ -1,5 +1,5 @@
 <h1 align="center">
-  Portfolio <img width="25px" src="https://github.com/pritam707/portfolio/blob/main/public/website-page.png?raw=true"/>
+  Portfolio <img width="25px" src="https://raw.githubusercontent.com/pritam707/portfolio/6cfdd0a7e1700695306ce6ef189555c8b86ac5e1/public/logos.svg?token=AYJZHCCFV4FBM5APHMPRVI3FTVIMQ"/>
 </h1>
 
  <p align="center">
