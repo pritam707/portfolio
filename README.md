@@ -1,5 +1,5 @@
 <h1 align="center">
-  Portfolio <img width="25px" src="https://raw.githubusercontent.com/EvanderInacio/Portfolio/73b9d0b179efc28c26d11e8d44570901d6f8b520/public/icon.svg"/>
+  Portfolio <img width="25px" src="https://github.com/pritam707/portfolio/blob/main/public/website-page.png?raw=true"/>
 </h1>
 
  <p align="center">
@@ -10,22 +10,21 @@
 
 <br>
 
-![Resultado final do projeto](https://raw.githubusercontent.com/EvanderInacio/Portfolio/main/public/ogimage.png)
+![Result of final project](https://github.com/pritam707/portfolio/blob/main/public/website-page.png?raw=true)
 
 <br>
 
-## 📝 Descrição 
+## 📝 Description
 
-Meu portfólio criado com o objetivo de mostrar meus projetos. 
-
+My portfolio created with the aim of showing my projects.
 
 ## 🚀 Deploy
 
- [evander.com.br](https://www.evander.com.br)
+[portfolio-pritamraj69.vercel.app](https://portfolio-pritamraj69.vercel.app/)
 
-## 🔥 Tecnologias
+## 🔥 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - NextJS
 - TypeScript
@@ -33,26 +32,27 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - EmailJS
 - Webhooks Discord API
 
-## 📚 Bibliotecas
+## 📚 Libraries
 
 - [Google Fonts](https://fonts.google.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Phosphor Icons](https://phosphoricons.com/)
 
-## 💻 Autor<br>
+## 💻 Author<br>
+
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/EvanderInacio">
-        <img src="https://avatars.githubusercontent.com/u/72362299?s=96&v=4" width="100px;" /><br>
+      <a href="https://github.com/pritam707">
+        <img src="https://media.licdn.com/dms/image/D4D03AQGg2_bJ05a_Pw/profile-displayphoto-shrink_800_800/0/1700319835482?e=1709164800&v=beta&t=1V8oCHJG04k-0IvH15GvOvvrfs82wVzgIt6QMXT1sZ0" width="100px;" /><br>
         <sub>
-          <b>Evander Inácio</b>
+          <b>Pritam Raj</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
------
+---
 
-  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/evander-inacio/">Evander Inácio</a> ☕</h3>
+  <h3 align="center"> Thanks to <a href="https://www.linkedin.com/in/evander-inacio/">Evander Inácio</a> ☕</h3>
