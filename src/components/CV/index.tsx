@@ -21,7 +21,7 @@ export function CV() {
             </p>
             <div className="profile">
               <img
-                src="https://media.licdn.com/dms/image/D4D03AQGg2_bJ05a_Pw/profile-displayphoto-shrink_800_800/0/1700319835482?e=1709164800&v=beta&t=1V8oCHJG04k-0IvH15GvOvvrfs82wVzgIt6QMXT1sZ0"
+                src="https://avatars.githubusercontent.com/u/101946248?v=4"
                 alt="Profile image"
               />
               <div className="name">

@@ -25,7 +25,7 @@ export default function Resume() {
           name="description"
           content="Here you can see or download my CV."
         />
-        <meta property="og:title" content="Resume | Evander Inácio" />
+        <meta property="og:title" content="Resume | Pritam Raj" />
         <meta
           property="og:description"
           content="
