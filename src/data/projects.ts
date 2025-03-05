@@ -32,7 +32,7 @@ const projects = [
       },
       {
         name: "PostgreSQL",
-        icon: "/skills/PostgreSQL.svg",
+        icon: "/skills/postgresql.svg",
         color: "#38BDC2",
         rgb: "56, 189, 248",
       },
