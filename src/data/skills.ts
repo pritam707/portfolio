@@ -77,6 +77,12 @@ const cardSkills = [
     img: "/skills/git.svg",
     color: "#61DAFB",
   },
+  {
+    id: 14,
+    title: "PostgreSQL",
+    img: "/skills/postgresql.svg",
+    color: "#fefe01",
+  },
 ];
 
 export default cardSkills;
