@@ -33,7 +33,7 @@ export function CV() {
 
           <Curriculum>
             <img src="/cv.png" alt="showing a resume download button" />
-            <a href="/pdf/PritamCV2.1.pdf" download>
+            <a href="/pdf/PritamCv3.1.pdf" download>
               <ButtonSecondAlt>
                 <b>Download CV</b> <FiDownload size={20} />
               </ButtonSecondAlt>
