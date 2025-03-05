@@ -235,7 +235,6 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
     web: project.web,
     description: project.description,
     tags: project.tags,
-    print: project.print,
     gif: project.gif,
     year: project.year,
     status: project.status,
