@@ -46,7 +46,7 @@ export default function About() {
             <S.AboutImage>
               <img
                 className="AboutImg"
-                src="https://avatars.githubusercontent.com/u/101946248?v=4"
+                src="https://www.imghippo.com/i/Uoc9826HZs.JPEG"
                 alt="Pritam's Profile"
               />
 
