@@ -13,6 +13,7 @@ const works = [
       { name: "JavaScript", icon: "/skills/javascript.svg" },
       { name: "React JS", icon: "/skills/react.svg" },
       { name: "Git", icon: "/skills/git.svg" },
+      { name: "PostgreSQL", icon: "/skills/postgresql.svg" },
     ],
     date: "OCT 2023 - Present",
   },
